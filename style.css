@@ -567,9 +567,19 @@ span {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 460px) {
   html {
     font-size: 50%;
+  }
+
+  .logo h2 {
+    margin-left: 16rem;
+  }
+
+  .home-img img {
+    width: 40rem;
+    height: 40rem;
+    margin-top: 4rem;
   }
 
   .contact form .input-box input {
@@ -585,7 +595,7 @@ span {
 
 @media (max-width: 365px) {
   .logo h2 {
-    margin-left: 16rem;
+    margin-left: 17rem;
   }
 
   .home-img img {
